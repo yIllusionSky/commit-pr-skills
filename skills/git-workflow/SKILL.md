@@ -1,9 +1,9 @@
 ---
-name: commit-pr-issue-skill
-description: commit、PR、issue、tag、branch 提交规范技能，生成相关内容时使用
+name: git-workflow
+description: commit、PR、issue、tag、branch 工作流规范技能，生成相关内容时使用
 ---
 
-# 提交规范
+# Git Workflow
 
 生成 commit、PR、issue、tag 内容和 branch 命名时使用。
 
