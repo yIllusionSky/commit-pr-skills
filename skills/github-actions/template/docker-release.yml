@@ -107,7 +107,7 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           context: ./backend
-          file: ./dockerfile/Dockerfile.rust
+          file: ./backend/Dockerfile
           push: false
           platforms: linux/amd64
           tags: ${{ steps.meta.outputs.backend_image }}:${{ steps.meta.outputs.backend_tag }}
@@ -122,7 +122,7 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           context: ./frontend
-          file: ./dockerfile/Dockerfile.sveltekit
+          file: ./frontend/Dockerfile
           push: false
           platforms: linux/amd64
           tags: ${{ steps.meta.outputs.frontend_image }}:${{ steps.meta.outputs.frontend_tag }}

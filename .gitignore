@@ -16,3 +16,21 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+
+### Rust
+target/
+**/target/
+
+### JavaScript
+node_modules/
+**/node_modules/
+.svelte-kit/
+**/.svelte-kit/
+.vite/
+**/.vite/
+.turbo/
+**/.turbo/
+build/
+**/build/
+dist/
+**/dist/
